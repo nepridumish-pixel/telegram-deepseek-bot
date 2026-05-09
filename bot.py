@@ -8,8 +8,8 @@ from functools import wraps
 import datetime
 
 # Токены и ключи
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7641501349:AAF7MdDDZUJlMm728k_KV1opANAYmA3LTjg")
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-1ed0ae30c05f43fba1d65e46897400b8")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 USERS_FILE = "users.json"
